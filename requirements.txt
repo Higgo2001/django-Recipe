@@ -1,0 +1,24 @@
+Django==5.0.6     # Match your installed Django version
+asgiref==3.8.1
+sqlparse==0.5.0
+
+# MySQL Connector
+mysqlclient==2.2.4
+
+# WSGI Server (Required for PythonAnywhere)
+gunicorn
+
+# Static File Handling (Essential for Production)
+whitenoise         # Highly recommended for serving static files on PythonAnywhere
+
+# Other Packages (Only if used in your project)
+# - Flask and related are not typically needed for a standard Django project
+# - You can remove them if you're not using them.
+Flask==3.0.3
+itsdangerous==2.2.0
+Jinja2==3.1.4
+MarkupSafe==2.1.5
+Werkzeug==3.0.3
+click==8.1.7       # If you're using Click for command-line tools
+colorama==0.4.6    # Often used with Click
+blinker==1.8.2
